@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CommonButton</string>
+    <string name="text_style_fill_color_rounded_corners">文本样式+填充颜色+圆角</string>
+    <string name="button_style_fill_color_rounded_corners">按钮样式+填充颜色+圆角</string>
+    <string name="button_style_water_ripple_fill_color_rounded_corners">按钮样式+水波纹+填充颜色+圆角</string>
+    <string name="text_style_fill_color_stroke">文本样式+填充颜色+描边</string>
+    <string name="round">圆形</string>
+    <string name="centered_with_icon_style">带图标样式居中</string>
+    <string name="default_button_icon_cannot_be_centered">默认按钮图标无法居中</string>
+    <string name="text_style_water_ripple_left_and_right_gradient">文本样式+水波纹+左右渐变</string>
+</resources>
