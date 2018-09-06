@@ -92,18 +92,8 @@
 				app:cb_orientation="LEFT_RIGHT"
 				app:cb_startColor="@color/colorAccent"/>
 
-			<Button
-				android:id="@+id/btn_6"
-				android:layout_width="180dp"
-				android:layout_height="wrap_content"
-				android:layout_margin="10dp"
-				android:drawableLeft="@drawable/ic_create_24dp"
-				android:text="@string/default_button_icon_cannot_be_centered"
-				android:textColor="@color/color_999999"
-				android:textSize="11dp"/>
-
 			<cc.hellokk.commonbutton.view.CommonButton
-				android:id="@+id/btn_7"
+				android:id="@+id/btn_6"
 				style="@style/CommonButtonStyle"
 				android:layout_width="wrap_content"
 				android:layout_height="30dp"
