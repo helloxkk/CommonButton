@@ -26,7 +26,7 @@
 				android:layout_marginLeft="30dp"
 				android:layout_marginRight="30dp"
 				android:layout_marginTop="10dp"
-				android:text="@string/text_style_fill_color_rounded_corners"
+				android:text="@string/rounded_corners_button"
 				android:textColor="@color/color_FFFFFF"
 				app:cb_cornerRadius="50dp"
 				app:cb_fillColor="@color/colorPrimary"/>
@@ -40,8 +40,9 @@
 				android:layout_marginLeft="30dp"
 				android:layout_marginRight="30dp"
 				android:layout_marginTop="10dp"
-				android:text="@string/button_style_fill_color_rounded_corners"
+				android:text="@string/water_ripple_button"
 				android:textColor="@color/color_FFFFFF"
+				app:cb_activeEnable="true"
 				app:cb_cornerRadius="50dp"
 				app:cb_fillColor="@color/colorPrimary"/>
 
@@ -54,11 +55,12 @@
 				android:layout_marginLeft="30dp"
 				android:layout_marginRight="30dp"
 				android:layout_marginTop="10dp"
-				android:text="@string/button_style_water_ripple_fill_color_rounded_corners"
+				android:text="@string/stroke_button"
 				android:textColor="@color/color_FFFFFF"
 				app:cb_activeEnable="true"
-				app:cb_cornerRadius="50dp"
-				app:cb_fillColor="@color/colorPrimary"/>
+				app:cb_fillColor="@color/colorPrimary"
+				app:cb_strokeColor="@color/color_999999"
+				app:cb_strokeWidth="1dp"/>
 
 			<cc.hellokk.commonbutton.view.CommonButton
 				android:id="@+id/btn_4"
@@ -69,23 +71,7 @@
 				android:layout_marginLeft="30dp"
 				android:layout_marginRight="30dp"
 				android:layout_marginTop="10dp"
-				android:text="@string/text_style_fill_color_stroke"
-				android:textColor="@color/color_FFFFFF"
-				app:cb_activeEnable="true"
-				app:cb_fillColor="@color/colorPrimary"
-				app:cb_strokeColor="@color/color_999999"
-				app:cb_strokeWidth="1dp"/>
-
-			<cc.hellokk.commonbutton.view.CommonButton
-				android:id="@+id/btn_5"
-				style="@style/CommonButtonStyle"
-				android:layout_width="match_parent"
-				android:layout_height="50dp"
-				android:layout_marginBottom="10dp"
-				android:layout_marginLeft="30dp"
-				android:layout_marginRight="30dp"
-				android:layout_marginTop="10dp"
-				android:text="@string/text_style_water_ripple_left_and_right_gradient"
+				android:text="@string/left_and_right_gradient_button"
 				android:textColor="@color/color_FFFFFF"
 				app:cb_activeEnable="true"
 				app:cb_endColor="@color/colorPrimary"
@@ -93,7 +79,7 @@
 				app:cb_startColor="@color/colorAccent"/>
 
 			<cc.hellokk.commonbutton.view.CommonButton
-				android:id="@+id/btn_6"
+				android:id="@+id/btn_5"
 				style="@style/CommonButtonStyle"
 				android:layout_width="wrap_content"
 				android:layout_height="30dp"
@@ -101,9 +87,9 @@
 				android:paddingLeft="10dp"
 				android:paddingRight="10dp"
 				android:drawableLeft="@drawable/ic_create_24dp"
-				android:text="@string/centered_with_icon_style"
+				android:text="@string/icon_button"
 				android:textColor="@color/color_FFFFFF"
-				android:textSize="11dp"
+				android:textSize="12sp"
 				app:cb_cornerRadius="50dp"
 				android:drawablePadding="5dp"
 				app:cb_drawablePosition="left"
@@ -114,12 +100,12 @@
 	</android.support.v4.widget.NestedScrollView>
 
 	<cc.hellokk.commonbutton.view.CommonButton
-		android:id="@+id/btn_8"
+		android:id="@+id/btn_6"
 		style="@style/CommonButtonStyle"
 		android:layout_width="55dp"
 		android:layout_height="55dp"
 		android:layout_margin="15dp"
-		android:text="@string/round"
+		android:text="@string/round_button"
 		android:textColor="@color/color_FFFFFF"
 		app:cb_fillColor="@color/colorPrimary"
 		app:cb_shapeMode="oval"
