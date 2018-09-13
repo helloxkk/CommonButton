@@ -1,4 +1,4 @@
-package cc.hellokk.commonbutton.view
+package cc.hellokk.commonbutton
 
 import android.app.Activity
 import android.content.Context
@@ -13,10 +13,13 @@ import android.os.Build
 import android.support.v7.widget.AppCompatButton
 import android.util.AttributeSet
 import android.view.Gravity
-import cc.hellokk.commonbutton.R
+import cc.hellokk.commonbotton.R
+import java.lang.Exception
 
 /**
- * 通用shape样式按钮
+ * 作者: Kun on 2018/9/1 11:26
+ * 邮箱: vip@hellokk.cc
+ * 描述: 通用的各种样式按钮
  */
 class CommonButton @JvmOverloads constructor(
         context: Context,
