@@ -40,6 +40,7 @@
 				android:layout_marginLeft="30dp"
 				android:layout_marginRight="30dp"
 				android:layout_marginTop="10dp"
+				app:cb_pressedColor="#F0F0F0"
 				android:text="@string/water_ripple_button"
 				android:textColor="@color/color_FFFFFF"
 				app:cb_activeEnable="true"

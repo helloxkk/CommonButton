@@ -118,7 +118,7 @@ class CommonButton @JvmOverloads constructor(
         context.obtainStyledAttributes(attrs, R.styleable.CommonButton).apply {
             mShapeMode = getInt(R.styleable.CommonButton_cb_shapeMode, 0)
             mFillColor = getColor(R.styleable.CommonButton_cb_fillColor, 0xFFFFFFFF.toInt())
-            mPressedColor = getColor(R.styleable.CommonButton_cb_pressedColor, 0xFF666666.toInt())
+            mPressedColor = getColor(R.styleable.CommonButton_cb_pressedColor, 0xFFF0F0F0.toInt())
             mStrokeColor = getColor(R.styleable.CommonButton_cb_strokeColor, 0)
             mStrokeWidth = getDimensionPixelSize(R.styleable.CommonButton_cb_strokeWidth, 0)
             mCornerRadius = getDimensionPixelSize(R.styleable.CommonButton_cb_cornerRadius, 0)
