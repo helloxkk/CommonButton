@@ -27,7 +27,6 @@ class CommonButton @JvmOverloads constructor(
         defStyleAttr: Int = 0
 ) : AppCompatButton(context, attrs, defStyleAttr) {
 
-
     private companion object {
         val TOP_LEFT = 1
         val TOP_RIGHT = 2
