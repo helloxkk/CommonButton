@@ -146,7 +146,7 @@ class CommonButton @JvmOverloads constructor(
             }
             // 填充色
             else {
-                setColor(mFillColor)
+                setFillColor(mFillColor)
             }
             when (mShapeMode) {
                 0 -> shape = GradientDrawable.RECTANGLE
@@ -200,6 +200,10 @@ class CommonButton @JvmOverloads constructor(
         } else {
             normalGradientDrawable
         }
+    }
+
+    fun setFillColor(color: Int) {
+        normalGradientDrawable.setColor(color)
     }
 
     override fun onLayout(changed: Boolean, left: Int, top: Int, right: Int, bottom: Int) {
