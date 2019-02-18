@@ -204,6 +204,7 @@ class CommonButton @JvmOverloads constructor(
 
     fun setFillColor(color: Int) {
         normalGradientDrawable.setColor(color)
+        invalidate()
     }
 
     override fun onLayout(changed: Boolean, left: Int, top: Int, right: Int, bottom: Int) {
