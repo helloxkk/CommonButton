@@ -20,12 +20,9 @@ class MainActivity : AppCompatActivity() {
         btn_4.setOnClickListener { showToast(btn_4.text) }
         btn_5.setOnClickListener { showToast(btn_5.text) }
         btn_6.setOnClickListener { showToast(btn_6.text) }
-
-        btn_1.setFillColor(getColor(android.R.color.black))
     }
 
     private var mToast: Toast? = null
-
     private fun showToast(text: CharSequence?) {
         if (mToast == null)
             mToast = Toast.makeText(this, text, Toast.LENGTH_SHORT)
