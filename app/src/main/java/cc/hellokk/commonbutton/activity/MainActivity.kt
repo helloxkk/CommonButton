@@ -6,6 +6,7 @@ import android.support.annotation.RequiresApi
 import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
 import cc.hellokk.commonbutton.R
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -13,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-//        btn_1.setOnClickListener { showToast(btn_1.text) }
+        btn_1.setOnClickListener { showToast(btn_1.text) }
 //        btn_2.setOnClickListener { showToast(btn_2.text) }
 //        btn_3.setOnClickListener { showToast(btn_3.text) }
 //        btn_4.setOnClickListener { showToast(btn_4.text) }
