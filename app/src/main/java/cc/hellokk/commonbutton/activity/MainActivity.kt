@@ -14,12 +14,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        btn_1.setOnClickListener { showToast(btn_1.text) }
-        btn_2.setOnClickListener { showToast(btn_2.text) }
-        btn_3.setOnClickListener { showToast(btn_3.text) }
-        btn_4.setOnClickListener { showToast(btn_4.text) }
-        btn_5.setOnClickListener { showToast(btn_5.text) }
-        btn_6.setOnClickListener { showToast(btn_6.text) }
+//        btn_1.setOnClickListener { showToast(btn_1.text) }
+//        btn_2.setOnClickListener { showToast(btn_2.text) }
+//        btn_3.setOnClickListener { showToast(btn_3.text) }
+//        btn_4.setOnClickListener { showToast(btn_4.text) }
+//        btn_5.setOnClickListener { showToast(btn_5.text) }
+//        btn_6.setOnClickListener { showToast(btn_6.text) }
     }
 
     private var mToast: Toast? = null
